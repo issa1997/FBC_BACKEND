@@ -1,11 +1,11 @@
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
-import EmailSender from "./SendEmail.js";
-import SubscribeEmailSender from "./SubscribeEmail.js";
-import ContactEmailSender from "./Contact.js";
-import PriceSender from "./Pricing.js";
-import ApplyEmailSender from "./Apply.js";
+import EmailSender from "../SendEmail.js";
+import SubscribeEmailSender from "../SubscribeEmail.js";
+import ContactEmailSender from "../Contact.js";
+import PriceSender from "../Pricing.js";
+import ApplyEmailSender from "../Apply.js";
 
 dotenv.config();
 const app = express();
